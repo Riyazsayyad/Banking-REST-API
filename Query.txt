@@ -1,0 +1,8 @@
+create database rest;
+
+create table account(accno varchar(5),accnm varchar(40),acctype varchar varchar(10),balance int);
+
+create table transactions(fromacno varchar(7),toacno varchar(7),amount int,transdt date);
+
+insert into account values("1122","Riyaz","Admin",1000000000);
+
